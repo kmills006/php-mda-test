@@ -48,3 +48,13 @@
   var_dump($result_two_filter);
   echo '</pre>';
 ?>
+
+
+
+
+<html>
+  <head>
+    <title>PHP Multidimensional Array Example</title>
+  </head>
+  <script src="index.js"></script>
+</html>

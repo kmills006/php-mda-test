@@ -1,4 +1,4 @@
-const cars = [
+var cars = [
   'hello',
   'world',
   ['Volvo', 22, 18],
@@ -7,4 +7,8 @@ const cars = [
   ['Land Rover', 17, 15],
 ];
 
+var result = cars.filter(function(car) {
+  return typeof car === 'object';
+});
 
+console.log('result: ', result);
